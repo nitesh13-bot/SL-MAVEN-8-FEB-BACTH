@@ -19,7 +19,7 @@ public class MyCalc {
 	}
 	public void show()
 	{
-		System.out.println("Hello Jenkins from SL 1 NOV BATCH! Thanks GitHub Action Thanks Subghsish");
+		System.out.println("Hello Jenkins from SL 1 NOV BATCH! Thanks GitHub Action Thanks Nitesh");
 	}
 	public void greeting()
 	{
@@ -28,9 +28,9 @@ public class MyCalc {
 
 	public static void main(String[] args) {
 		MyCalc calc = new MyCalc();
-		System.out.println("Sum is: "+calc.sum(20, 10));
+		System.out.println("Sum is: "+calc.sum(25, 10));
 		System.out.println("Diff is: "+calc.diff(20, 10));
-		System.out.println("Multiply is: "+calc.mul(20, 10));
+		System.out.println("Multiply is: "+calc.mul(20, 50));
 		System.out.println("Div is: "+calc.div(20, 10));
 		calc.show();
 		calc.greeting();
